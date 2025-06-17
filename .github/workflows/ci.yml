@@ -16,3 +16,6 @@ jobs:
                 node-version: '21'
             - name: "check node version"
               run: node --version
+
+            - name: "Clode the repository"
+              uses: actions/checkout@v2
