@@ -19,3 +19,6 @@ jobs:
 
             - name: "Clode the repository"
               uses: actions/checkout@v2
+
+            - name: "Install dependency"
+              run: npm install
