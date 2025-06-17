@@ -19,7 +19,7 @@ jobs:
 
             - name: "Clode the repository"
               uses: actions/checkout@v2
-              
+
             - name: "List directories"
               run: ls
 
@@ -28,3 +28,10 @@ jobs:
 
             - name: "List directories"
               run: ls
+
+            - name: "Run test"
+              run: npm test
+
+            - name: "Run build"
+              run: npm run build
+
