@@ -19,6 +19,9 @@ jobs:
 
             - name: "Clode the repository"
               uses: actions/checkout@v2
+              
+            - name: "List directories"
+              run: ls
 
             - name: "Install dependency"
               run: npm install
