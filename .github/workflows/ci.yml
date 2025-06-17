@@ -35,3 +35,5 @@ jobs:
             - name: "Run build"
               run: npm run build
 
+            - name: "Run lints"
+              run: npm run lint
